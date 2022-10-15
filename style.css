@@ -1,0 +1,112 @@
+
+
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: brown;
+}
+
+.head{
+    background-color: rgba(250, 235, 215, 0.721);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hindi{
+    font-family: 'Hind', sans-serif;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+
+.allL{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.headline{
+
+    font-weight: 900;
+    padding-top: 30px;
+    padding-bottom:30px ;
+
+}
+
+
+.insidebox{
+    background-color: rgba(250, 235, 215, 0.795);
+    border-radius: 20px;
+    height: auto;
+    width: auto;
+    padding:20px;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+}
+
+
+.english{
+    font-weight: bold;
+font-family: 'Poppins', sans-serif;
+}
+
+
+.meaning{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+@media screen and (min-width: 1339px) {
+    .allL {
+        /* background-color: lightgreen; */
+    }
+    body{
+        background-image: url("assect/vardtbg.jpg");
+        background-size:cover ;
+    }
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 1339px) {
+    .allL {
+        /* background-color: rebeccapurple; */
+
+        display: block;
+        justify-self: start;
+       padding: 20px;
+           
+
+            /* flex-direction: column; */
+    } body {
+       
+         background-image: url("assect/varmbbg.jpg");
+        background-size: cover;
+     }
+    
+}
